@@ -1,0 +1,24 @@
+## Env files (do not commit secrets)
+.env
+.env.*
+!.env.example
+
+## Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+## Build output
+dist/
+build/
+.vite/
+
+## Docker volumes / local state
+db_data/
+
+## OS / editor
+.DS_Store
+.vscode/
+.idea/
+
